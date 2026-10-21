@@ -1,0 +1,5 @@
+Wavelet,Observations,Stress_Episodes,Signal_Episodes,Matched_Stress_Episodes,Stress_Episode_Coverage,Useful_Signal_Episodes,Signal_Precision,Median_Lead_From_Signal_Start,Mean_Lead_From_Signal_Start,Minimum_Lead_From_Signal_Start,Maximum_Lead_From_Signal_Start,Median_Lead_From_Signal_End,Mean_Lead_From_Signal_End
+haar,2873,81,2,5,0.06172839506172839,2,1.0,27.0,22.2,1,45,-236.0,-198.0
+db4,2873,81,2,5,0.06172839506172839,2,1.0,27.0,22.2,1,45,-237.0,-197.6
+sym4,2873,81,2,5,0.06172839506172839,2,1.0,27.0,22.2,1,45,-237.0,-197.6
+coif1,2873,81,2,5,0.06172839506172839,2,1.0,27.0,22.2,1,45,-237.0,-198.2
