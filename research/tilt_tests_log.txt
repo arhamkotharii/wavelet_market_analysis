@@ -1,0 +1,164 @@
+=== Real-data logits (HAC-10 t-values; standardized regressors) ===
+wavelet sample target              spec    n  events  LR_vs_VOL  t_Z_tilt  t_SI  t_Z_rho1  t_Z_VR5  t_tau
+    db4   S_SI      Y               VOL 2873     177       0.00       NaN   NaN       NaN      NaN    NaN
+    db4   S_SI      Y        VOL+Z_tilt 2873     177      10.73      2.03   NaN       NaN      NaN    NaN
+    db4   S_SI      Y           VOL+tau 2873     177       5.38       NaN   NaN       NaN      NaN   1.59
+    db4   S_SI      Y        VOL+Z_rho1 2873     177       7.66       NaN   NaN     -1.86      NaN    NaN
+    db4   S_SI      Y         VOL+Z_VR5 2873     177       2.81       NaN   NaN       NaN     1.04    NaN
+    db4   S_SI      Y VOL+Z_rho1+Z_tilt 2873     177      32.24      3.43   NaN     -3.16      NaN    NaN
+    db4   S_SI      Y  VOL+Z_VR5+Z_tilt 2873     177      16.96      2.62   NaN       NaN    -1.70    NaN
+    db4   S_SI      Y            VOL+SI 2873     177      17.80       NaN  3.14       NaN      NaN    NaN
+    db4   S_SI      Y     VOL+SI+Z_tilt 2873     177      17.99      0.30  2.24       NaN      NaN    NaN
+    db4   S_SI   Ymdd               VOL 2873     318       0.00       NaN   NaN       NaN      NaN    NaN
+    db4   S_SI   Ymdd        VOL+Z_tilt 2873     318      20.46      2.57   NaN       NaN      NaN    NaN
+    db4   S_SI   Ymdd           VOL+tau 2873     318       9.63       NaN   NaN       NaN      NaN   1.88
+    db4   S_SI   Ymdd        VOL+Z_rho1 2873     318       3.56       NaN   NaN     -1.10      NaN    NaN
+    db4   S_SI   Ymdd         VOL+Z_VR5 2873     318       4.55       NaN   NaN       NaN     1.20    NaN
+    db4   S_SI   Ymdd VOL+Z_rho1+Z_tilt 2873     318      39.31      3.75   NaN     -2.60      NaN    NaN
+    db4   S_SI   Ymdd  VOL+Z_VR5+Z_tilt 2873     318      33.90      3.07   NaN       NaN    -2.01    NaN
+    db4   S_SI   Ymdd            VOL+SI 2873     318      15.75       NaN  2.53       NaN      NaN    NaN
+    db4   S_SI   Ymdd     VOL+SI+Z_tilt 2873     318      21.72      1.35  0.68       NaN      NaN    NaN
+    db4 S_hold      Y               VOL 1000      99       0.00       NaN   NaN       NaN      NaN    NaN
+    db4 S_hold      Y        VOL+Z_tilt 1000      99      18.90     -2.97   NaN       NaN      NaN    NaN
+    db4 S_hold      Y           VOL+tau 1000      99      15.34       NaN   NaN       NaN      NaN  -2.66
+    db4 S_hold      Y        VOL+Z_rho1 1000      99       0.25       NaN   NaN      0.35      NaN    NaN
+    db4 S_hold      Y         VOL+Z_VR5 1000      99      14.64       NaN   NaN       NaN    -2.46    NaN
+    db4 S_hold      Y VOL+Z_rho1+Z_tilt 1000      99      19.49     -3.04   NaN      0.53      NaN    NaN
+    db4 S_hold      Y  VOL+Z_VR5+Z_tilt 1000      99      18.90     -1.51   NaN       NaN     0.00    NaN
+    db4 S_hold   Ymdd               VOL 1000     191       0.00       NaN   NaN       NaN      NaN    NaN
+    db4 S_hold   Ymdd        VOL+Z_tilt 1000     191      30.95     -3.31   NaN       NaN      NaN    NaN
+    db4 S_hold   Ymdd           VOL+tau 1000     191      36.64       NaN   NaN       NaN      NaN  -3.63
+    db4 S_hold   Ymdd        VOL+Z_rho1 1000     191       0.53       NaN   NaN      0.43      NaN    NaN
+    db4 S_hold   Ymdd         VOL+Z_VR5 1000     191      34.54       NaN   NaN       NaN    -3.36    NaN
+    db4 S_hold   Ymdd VOL+Z_rho1+Z_tilt 1000     191      32.00     -3.34   NaN      0.60      NaN    NaN
+    db4 S_hold   Ymdd  VOL+Z_VR5+Z_tilt 1000     191      35.21     -0.48   NaN       NaN    -1.13    NaN
+    db4  S_all      Y               VOL 3873     276       0.00       NaN   NaN       NaN      NaN    NaN
+    db4  S_all      Y        VOL+Z_tilt 3873     276       0.04      0.11   NaN       NaN      NaN    NaN
+    db4  S_all      Y           VOL+tau 3873     276       0.25       NaN   NaN       NaN      NaN  -0.30
+    db4  S_all      Y        VOL+Z_rho1 3873     276      12.36       NaN   NaN     -2.30      NaN    NaN
+    db4  S_all      Y         VOL+Z_VR5 3873     276       1.25       NaN   NaN       NaN    -0.64    NaN
+    db4  S_all      Y VOL+Z_rho1+Z_tilt 3873     276      15.69      1.10   NaN     -2.69      NaN    NaN
+    db4  S_all      Y  VOL+Z_VR5+Z_tilt 3873     276       7.75      1.75   NaN       NaN    -1.93    NaN
+    db4  S_all   Ymdd               VOL 3873     509       0.00       NaN   NaN       NaN      NaN    NaN
+    db4  S_all   Ymdd        VOL+Z_tilt 3873     509       0.10      0.16   NaN       NaN      NaN    NaN
+    db4  S_all   Ymdd           VOL+tau 3873     509       0.91       NaN   NaN       NaN      NaN  -0.51
+    db4  S_all   Ymdd        VOL+Z_rho1 3873     509       9.15       NaN   NaN     -1.74      NaN    NaN
+    db4  S_all   Ymdd         VOL+Z_VR5 3873     509       4.28       NaN   NaN       NaN    -1.08    NaN
+    db4  S_all   Ymdd VOL+Z_rho1+Z_tilt 3873     509      12.35      0.96   NaN     -2.04      NaN    NaN
+    db4  S_all   Ymdd  VOL+Z_VR5+Z_tilt 3873     509      25.36      2.64   NaN       NaN    -2.82    NaN
+   haar   S_SI      Y               VOL 2873     177       0.00       NaN   NaN       NaN      NaN    NaN
+   haar   S_SI      Y        VOL+Z_tilt 2873     177       5.19      1.44   NaN       NaN      NaN    NaN
+   haar   S_SI      Y           VOL+tau 2873     177       3.96       NaN   NaN       NaN      NaN   1.33
+   haar   S_SI      Y        VOL+Z_rho1 2873     177       7.66       NaN   NaN     -1.86      NaN    NaN
+   haar   S_SI      Y         VOL+Z_VR5 2873     177       2.81       NaN   NaN       NaN     1.04    NaN
+   haar   S_SI      Y VOL+Z_rho1+Z_tilt 2873     177      29.50      3.22   NaN     -3.33      NaN    NaN
+   haar   S_SI      Y  VOL+Z_VR5+Z_tilt 2873     177      11.82      2.20   NaN       NaN    -1.87    NaN
+   haar   S_SI      Y            VOL+SI 2873     177      12.86       NaN  2.67       NaN      NaN    NaN
+   haar   S_SI      Y     VOL+SI+Z_tilt 2873     177      12.87     -0.03  2.09       NaN      NaN    NaN
+   haar   S_SI   Ymdd               VOL 2873     318       0.00       NaN   NaN       NaN      NaN    NaN
+   haar   S_SI   Ymdd        VOL+Z_tilt 2873     318       7.39      1.56   NaN       NaN      NaN    NaN
+   haar   S_SI   Ymdd           VOL+tau 2873     318       5.14       NaN   NaN       NaN      NaN   1.35
+   haar   S_SI   Ymdd        VOL+Z_rho1 2873     318       3.56       NaN   NaN     -1.10      NaN    NaN
+   haar   S_SI   Ymdd         VOL+Z_VR5 2873     318       4.55       NaN   NaN       NaN     1.20    NaN
+   haar   S_SI   Ymdd VOL+Z_rho1+Z_tilt 2873     318      25.65      2.74   NaN     -2.40      NaN    NaN
+   haar   S_SI   Ymdd  VOL+Z_VR5+Z_tilt 2873     318      13.31      2.04   NaN       NaN    -1.66    NaN
+   haar   S_SI   Ymdd            VOL+SI 2873     318       6.42       NaN  1.52       NaN      NaN    NaN
+   haar   S_SI   Ymdd     VOL+SI+Z_tilt 2873     318       8.46      0.81  0.61       NaN      NaN    NaN
+   haar S_hold      Y               VOL 1000      99       0.00       NaN   NaN       NaN      NaN    NaN
+   haar S_hold      Y        VOL+Z_tilt 1000      99       8.49     -1.87   NaN       NaN      NaN    NaN
+   haar S_hold      Y           VOL+tau 1000      99       6.18       NaN   NaN       NaN      NaN  -1.62
+   haar S_hold      Y        VOL+Z_rho1 1000      99       0.25       NaN   NaN      0.35      NaN    NaN
+   haar S_hold      Y         VOL+Z_VR5 1000      99      14.64       NaN   NaN       NaN    -2.46    NaN
+   haar S_hold      Y VOL+Z_rho1+Z_tilt 1000      99      10.17     -2.20   NaN      0.94      NaN    NaN
+   haar S_hold      Y  VOL+Z_VR5+Z_tilt 1000      99      23.03      2.13   NaN       NaN    -2.73    NaN
+   haar S_hold   Ymdd               VOL 1000     191       0.00       NaN   NaN       NaN      NaN    NaN
+   haar S_hold   Ymdd        VOL+Z_tilt 1000     191      25.88     -2.78   NaN       NaN      NaN    NaN
+   haar S_hold   Ymdd           VOL+tau 1000     191      23.18       NaN   NaN       NaN      NaN  -2.55
+   haar S_hold   Ymdd        VOL+Z_rho1 1000     191       0.53       NaN   NaN      0.43      NaN    NaN
+   haar S_hold   Ymdd         VOL+Z_VR5 1000     191      34.54       NaN   NaN       NaN    -3.36    NaN
+   haar S_hold   Ymdd VOL+Z_rho1+Z_tilt 1000     191      30.75     -3.23   NaN      1.33      NaN    NaN
+   haar S_hold   Ymdd  VOL+Z_VR5+Z_tilt 1000     191      39.52      1.29   NaN       NaN    -2.17    NaN
+   haar  S_all      Y               VOL 3873     276       0.00       NaN   NaN       NaN      NaN    NaN
+   haar  S_all      Y        VOL+Z_tilt 3873     276       0.07     -0.16   NaN       NaN      NaN    NaN
+   haar  S_all      Y           VOL+tau 3873     276       0.08       NaN   NaN       NaN      NaN  -0.17
+   haar  S_all      Y        VOL+Z_rho1 3873     276      12.36       NaN   NaN     -2.30      NaN    NaN
+   haar  S_all      Y         VOL+Z_VR5 3873     276       1.25       NaN   NaN       NaN    -0.64    NaN
+   haar  S_all      Y VOL+Z_rho1+Z_tilt 3873     276      16.88      1.33   NaN     -2.81      NaN    NaN
+   haar  S_all      Y  VOL+Z_VR5+Z_tilt 3873     276      13.14      2.58   NaN       NaN    -2.70    NaN
+   haar  S_all   Ymdd               VOL 3873     509       0.00       NaN   NaN       NaN      NaN    NaN
+   haar  S_all   Ymdd        VOL+Z_tilt 3873     509       1.63     -0.66   NaN       NaN      NaN    NaN
+   haar  S_all   Ymdd           VOL+tau 3873     509       1.65       NaN   NaN       NaN      NaN  -0.68
+   haar  S_all   Ymdd        VOL+Z_rho1 3873     509       9.15       NaN   NaN     -1.74      NaN    NaN
+   haar  S_all   Ymdd         VOL+Z_VR5 3873     509       4.28       NaN   NaN       NaN    -1.08    NaN
+   haar  S_all   Ymdd VOL+Z_rho1+Z_tilt 3873     509       9.55      0.33   NaN     -1.60      NaN    NaN
+   haar  S_all   Ymdd  VOL+Z_VR5+Z_tilt 3873     509      14.30      2.07   NaN       NaN    -2.37    NaN
+  coif1   S_SI      Y               VOL 2873     177       0.00       NaN   NaN       NaN      NaN    NaN
+  coif1   S_SI      Y        VOL+Z_tilt 2873     177       7.32      1.76   NaN       NaN      NaN    NaN
+  coif1   S_SI      Y           VOL+tau 2873     177       4.47       NaN   NaN       NaN      NaN   1.44
+  coif1   S_SI      Y        VOL+Z_rho1 2873     177       7.66       NaN   NaN     -1.86      NaN    NaN
+  coif1   S_SI      Y         VOL+Z_VR5 2873     177       2.81       NaN   NaN       NaN     1.04    NaN
+  coif1   S_SI      Y VOL+Z_rho1+Z_tilt 2873     177      30.07      3.38   NaN     -3.26      NaN    NaN
+  coif1   S_SI      Y  VOL+Z_VR5+Z_tilt 2873     177      11.53      2.56   NaN       NaN    -1.62    NaN
+  coif1   S_SI      Y            VOL+SI 2873     177      17.31       NaN  3.13       NaN      NaN    NaN
+  coif1   S_SI      Y     VOL+SI+Z_tilt 2873     177      17.31     -0.04  2.62       NaN      NaN    NaN
+  coif1   S_SI   Ymdd               VOL 2873     318       0.00       NaN   NaN       NaN      NaN    NaN
+  coif1   S_SI   Ymdd        VOL+Z_tilt 2873     318      11.00      1.91   NaN       NaN      NaN    NaN
+  coif1   S_SI   Ymdd           VOL+tau 2873     318       7.42       NaN   NaN       NaN      NaN   1.64
+  coif1   S_SI   Ymdd        VOL+Z_rho1 2873     318       3.56       NaN   NaN     -1.10      NaN    NaN
+  coif1   S_SI   Ymdd         VOL+Z_VR5 2873     318       4.55       NaN   NaN       NaN     1.20    NaN
+  coif1   S_SI   Ymdd VOL+Z_rho1+Z_tilt 2873     318      28.69      3.12   NaN     -2.46      NaN    NaN
+  coif1   S_SI   Ymdd  VOL+Z_VR5+Z_tilt 2873     318      15.91      2.09   NaN       NaN    -1.31    NaN
+  coif1   S_SI   Ymdd            VOL+SI 2873     318      11.77       NaN  2.13       NaN      NaN    NaN
+  coif1   S_SI   Ymdd     VOL+SI+Z_tilt 2873     318      13.79      0.81  1.00       NaN      NaN    NaN
+  coif1 S_hold      Y               VOL 1000      99       0.00       NaN   NaN       NaN      NaN    NaN
+  coif1 S_hold      Y        VOL+Z_tilt 1000      99      16.88     -2.71   NaN       NaN      NaN    NaN
+  coif1 S_hold      Y           VOL+tau 1000      99      11.01       NaN   NaN       NaN      NaN  -2.21
+  coif1 S_hold      Y        VOL+Z_rho1 1000      99       0.25       NaN   NaN      0.35      NaN    NaN
+  coif1 S_hold      Y         VOL+Z_VR5 1000      99      14.64       NaN   NaN       NaN    -2.46    NaN
+  coif1 S_hold      Y VOL+Z_rho1+Z_tilt 1000      99      18.19     -2.86   NaN      0.81      NaN    NaN
+  coif1 S_hold      Y  VOL+Z_VR5+Z_tilt 1000      99      16.89     -0.99   NaN       NaN    -0.07    NaN
+  coif1 S_hold   Ymdd               VOL 1000     191       0.00       NaN   NaN       NaN      NaN    NaN
+  coif1 S_hold   Ymdd        VOL+Z_tilt 1000     191      34.43     -3.38   NaN       NaN      NaN    NaN
+  coif1 S_hold   Ymdd           VOL+tau 1000     191      30.45       NaN   NaN       NaN      NaN  -3.12
+  coif1 S_hold   Ymdd        VOL+Z_rho1 1000     191       0.53       NaN   NaN      0.43      NaN    NaN
+  coif1 S_hold   Ymdd         VOL+Z_VR5 1000     191      34.54       NaN   NaN       NaN    -3.36    NaN
+  coif1 S_hold   Ymdd VOL+Z_rho1+Z_tilt 1000     191      37.16     -3.56   NaN      0.98      NaN    NaN
+  coif1 S_hold   Ymdd  VOL+Z_VR5+Z_tilt 1000     191      35.96     -0.70   NaN       NaN    -0.70    NaN
+  coif1  S_all      Y               VOL 3873     276       0.00       NaN   NaN       NaN      NaN    NaN
+  coif1  S_all      Y        VOL+Z_tilt 3873     276       0.11     -0.19   NaN       NaN      NaN    NaN
+  coif1  S_all      Y           VOL+tau 3873     276       0.28       NaN   NaN       NaN      NaN  -0.31
+  coif1  S_all      Y        VOL+Z_rho1 3873     276      12.36       NaN   NaN     -2.30      NaN    NaN
+  coif1  S_all      Y         VOL+Z_VR5 3873     276       1.25       NaN   NaN       NaN    -0.64    NaN
+  coif1  S_all      Y VOL+Z_rho1+Z_tilt 3873     276      15.00      1.01   NaN     -2.65      NaN    NaN
+  coif1  S_all      Y  VOL+Z_VR5+Z_tilt 3873     276       4.58      1.47   NaN       NaN    -1.66    NaN
+  coif1  S_all   Ymdd               VOL 3873     509       0.00       NaN   NaN       NaN      NaN    NaN
+  coif1  S_all   Ymdd        VOL+Z_tilt 3873     509       1.02     -0.52   NaN       NaN      NaN    NaN
+  coif1  S_all   Ymdd           VOL+tau 3873     509       1.41       NaN   NaN       NaN      NaN  -0.63
+  coif1  S_all   Ymdd        VOL+Z_rho1 3873     509       9.15       NaN   NaN     -1.74      NaN    NaN
+  coif1  S_all   Ymdd         VOL+Z_VR5 3873     509       4.28       NaN   NaN       NaN    -1.08    NaN
+  coif1  S_all   Ymdd VOL+Z_rho1+Z_tilt 3873     509       9.55      0.33   NaN     -1.67      NaN    NaN
+  coif1  S_all   Ymdd  VOL+Z_VR5+Z_tilt 3873     509       9.81      1.44   NaN       NaN    -1.81    NaN
+
+=== Sample check ===
+S_hold: n=1000 events=99 2011-01-10..2015-01-29
+S_SI: n=2873 events=177 2015-01-30..2026-09-04
+S_all: n=3873 events=276 2011-01-10..2026-09-04
+corr(SI, Z_tilt) on S_SI = 0.679
+
+=== H2 quartile gap (cut-points from S_SI: q25=-1.100, q75=0.424) ===
+S_hold: top 0.0000 (n=48) bottom 0.1636 (n=220) gap -0.1636 CI [-0.2455, -0.0891]
+S_SI: top 0.0821 (n=719) bottom 0.0431 (n=719) gap +0.0389 CI [-0.0022, +0.0817]
+S_all: top 0.0769 (n=767) bottom 0.0714 (n=939) gap +0.0056 CI [-0.0359, +0.0513]
+
+=== Per-year mean of Z_tilt (db4) and SI ===
+Date     2011   2012   2013   2014   2015   2016   2017   2018   2019   2020   2021    2022   2023   2024   2025    2026
+Z_tilt -0.833 -0.608 -0.571 -0.158 -0.575 -0.858 -0.497 -1.776 -0.797  0.331  0.264   0.740 -1.140 -0.177 -0.503   0.467
+SI        NaN    NaN    NaN    NaN  2.225 -5.285 -1.291 -8.293  2.044  1.183  4.610  11.972 -3.067  9.383 -8.446  15.475
+signflip: 500 done
+garch: 500 done
+
+=== Surrogate p-values for t(Z_tilt), db4, target Y ===
+S_SI    garch     real t=2.029  null mean 0.216 p95 2.103  P(t>1.96)=0.066  p=0.0619  (n=500)
+S_SI    signflip  real t=2.029  null mean 0.138 p95 1.910  P(t>1.96)=0.044  p=0.0399  (n=500)
+S_hold  garch     real t=-2.973  null mean 0.312 p95 2.308  P(t>1.96)=0.084  p=0.9940  (n=500)
+S_hold  signflip  real t=-2.973  null mean 0.380 p95 2.555  P(t>1.96)=0.084  p=0.9980  (n=500)

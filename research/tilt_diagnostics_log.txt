@@ -1,0 +1,37 @@
+D1: per-year, S_hold and S_SI (t of Z_tilt in Y ~ VOL + Z_tilt; few events per year -> noisy)
+  2011: n=242 events=49 mean Z=-0.83 corr(Z,Y)=-0.007
+  2012: n=247 events=10 mean Z=-0.61 corr(Z,Y)=-0.070
+  2013: n=248 events=31 mean Z=-0.57 corr(Z,Y)=-0.142
+  2014: n=243 events=9 mean Z=-0.16 corr(Z,Y)=-0.066
+  2015: n=248 events=23 mean Z=-0.58 corr(Z,Y)=-0.035
+  2016: n=246 events=17 mean Z=-0.86 corr(Z,Y)=+0.219
+  2017: n=248 events=4 mean Z=-0.50 corr(Z,Y)=-0.003
+  2018: n=246 events=18 mean Z=-1.78 corr(Z,Y)=+0.160
+  2019: n=245 events=11 mean Z=-0.80 corr(Z,Y)=+0.037
+  2020: n=252 events=29 mean Z=+0.33 corr(Z,Y)=-0.212
+  2021: n=248 events=16 mean Z=+0.26 corr(Z,Y)=+0.166
+  2022: n=248 events=28 mean Z=+0.74 corr(Z,Y)=+0.308
+  2023: n=246 events=5 mean Z=-1.14 corr(Z,Y)=+0.070
+  2024: n=249 events=13 mean Z=-0.18 corr(Z,Y)=+0.080
+  2025: n=249 events=4 mean Z=-0.50 corr(Z,Y)=+0.171
+  2026: n=168 events=9 mean Z=+0.47 corr(Z,Y)=-0.145
+  S_hold excluding 2011: t=-2.78
+  S_hold 2011 only:      t=-0.31
+
+D2: drift. mean of mu^2/E[x^2] in window: S_hold 0.0044, S_SI 0.0059
+  corr(Z_tilt, Z_demeaned) = 0.986
+  S_hold: t(Z_tilt)=-2.97  t(Z_demeaned)=-3.03
+  S_SI: t(Z_tilt)=2.03  t(Z_demeaned)=2.12
+  S_all: t(Z_tilt)=0.11  t(Z_demeaned)=0.12
+
+D3: momentum controls (VOL + ret60 + ret250 + Z_tilt)
+  S_hold: t(Z_tilt)=-2.85
+  S_SI: t(Z_tilt)=1.98
+  S_all: t(Z_tilt)=0.06
+
+D4: relative tilt Z_rel = Z_tilt - trailing 250-day mean (rows where defined)
+  corr(SI, Z_rel) on S_SI = 0.658  (corr(SI, Z_tilt) = 0.679)
+  S_hold (n=750, events=50): t(Z_rel)=-2.51  t(Z_tilt) same rows=-2.86
+  S_SI (n=2873, events=177): t(Z_rel)=2.19  t(Z_tilt) same rows=2.03
+  S_all (n=3623, events=227): t(Z_rel)=1.39  t(Z_tilt) same rows=1.02
+  S_SI joint VOL+SI+Z_rel: t(SI)=1.92 t(Z_rel)=0.65
